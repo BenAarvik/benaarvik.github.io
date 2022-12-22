@@ -83,7 +83,7 @@ theme = "FixIt"
       # URL of the LOGO
       logo = ""
       # title name
-      name = ""
+      name = "aarvik.org"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
