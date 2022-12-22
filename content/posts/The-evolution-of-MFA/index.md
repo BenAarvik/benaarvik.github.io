@@ -16,7 +16,7 @@ categories:
     - Cyber Security
 ---
 
-# The Evolution of MFA: From Single Passwords to Multiple Authentication Methods
+# The Evolution of MFA: From Single Passwords to passwordless Authentication
 
 In the early days of the internet, it was common for people to use just a single password to secure their accounts. This seemed like a sufficient measure at the time, but as more and more personal and sensitive information started being shared online, the need for better security measures became evident. This is where MFA, or Multi Factor Authentication, comes in.
 
