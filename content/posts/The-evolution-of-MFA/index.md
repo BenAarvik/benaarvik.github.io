@@ -1,7 +1,7 @@
 ---
 title: The Evolution of MFA
 description: From Single Passwords to Passwordless authentication
-date: 2023-01-22T09:30:30+01:00
+date: 2023-02-01T09:30:30+01:00
 author: "Bendik Aarvik" 
 license: 
 hidden: false
