@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>aarvik.org</title>
-    <link>https://aarvik.org/</link>
-    <description>Recent content on aarvik.org</description>
+    <title>MFA on aarvik.org</title>
+    <link>https://aarvik.org/tags/mfa/</link>
+    <description>Recent content in MFA on aarvik.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bendik@aarvik.org (Bendik Aarvik)</managingEditor>
     <webMaster>bendik@aarvik.org (Bendik Aarvik)</webMaster>
-    <lastBuildDate>Wed, 01 Feb 2023 09:30:30 +0100</lastBuildDate><atom:link href="https://aarvik.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 09:30:30 +0100</lastBuildDate><atom:link href="https://aarvik.org/tags/mfa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Streamlining Incident Management with ChatGPT</title>
       <link>https://aarvik.org/streamlining-incident-management-with-chatgpt/</link>
@@ -26,16 +26,6 @@ Using ChatGPT for Incident Triage in Azure Sentinel One of the key tasks in inci
       <author>bendik@aarvik.org (Bendik Aarvik)</author>
       <guid>https://aarvik.org/the-evolution-of-mfa/</guid>
       <description>The Evolution of MFA: From Single Passwords to passwordless Authentication In the early days of the internet, it was common for people to use just a single password to secure their accounts. This seemed like a sufficient measure at the time, but as more and more personal and sensitive information started being shared online, the need for better security measures became evident. This is where MFA, or Multi Factor Authentication, comes in.</description>
-    </item>
-    
-    <item>
-      <title>Monitoring to stay ahead</title>
-      <link>https://aarvik.org/monitoring-to-stay-ahead/</link>
-      <pubDate>Thu, 22 Dec 2022 09:30:30 +0100</pubDate>
-      <author>bendik@aarvik.org (Bendik Aarvik)</author>
-      <guid>https://aarvik.org/monitoring-to-stay-ahead/</guid>
-      <description>Monitoring to stay ahead of the threat landscape It is often difficult to catch everything that is crawling around your network. It is especially hard to catch what is outside your network. It is also where new vulnerabilities get discovered day by day and hour by hour.
-Recently there was a Zero-Day vulnerability in exchange that shook the industry. Thankfully, Microsoft was early out with mitigation steps so people could secure their systems.</description>
     </item>
     
   </channel>

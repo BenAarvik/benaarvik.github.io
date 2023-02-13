@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on aarvik.org</title>
+    <link>https://aarvik.org/tags/ai/</link>
+    <description>Recent content in AI on aarvik.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>bendik@aarvik.org (Bendik Aarvik)</managingEditor>
+    <webMaster>bendik@aarvik.org (Bendik Aarvik)</webMaster>
+    <lastBuildDate>Wed, 01 Feb 2023 09:30:30 +0100</lastBuildDate><atom:link href="https://aarvik.org/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlining Incident Management with ChatGPT</title>
+      <link>https://aarvik.org/streamlining-incident-management-with-chatgpt/</link>
+      <pubDate>Wed, 01 Feb 2023 09:30:30 +0100</pubDate>
+      <author>bendik@aarvik.org (Bendik Aarvik)</author>
+      <guid>https://aarvik.org/streamlining-incident-management-with-chatgpt/</guid>
+      <description>Sentinel and ChatGPT My latest obsession, like many others, has been ChatGPT. Everything from making detailed backstories to fictional characters to brainstorming how to finish a sentence. Here my intentions are to go through some of my findings regarding using ChatGPT to help me with my work. Specifically incident investigation in Sentinel.
+Using ChatGPT for Incident Triage in Azure Sentinel One of the key tasks in incident management is triaging incidents to determine their severity, priority, and next steps for resolution.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>aarvik.org</title>
-    <link>https://aarvik.org/</link>
-    <description>Recent content on aarvik.org</description>
+    <title>Cyber Security on aarvik.org</title>
+    <link>https://aarvik.org/categories/cyber-security/</link>
+    <description>Recent content in Cyber Security on aarvik.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>bendik@aarvik.org (Bendik Aarvik)</managingEditor>
     <webMaster>bendik@aarvik.org (Bendik Aarvik)</webMaster>
-    <lastBuildDate>Wed, 01 Feb 2023 09:30:30 +0100</lastBuildDate><atom:link href="https://aarvik.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Feb 2023 09:30:30 +0100</lastBuildDate><atom:link href="https://aarvik.org/categories/cyber-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Streamlining Incident Management with ChatGPT</title>
       <link>https://aarvik.org/streamlining-incident-management-with-chatgpt/</link>

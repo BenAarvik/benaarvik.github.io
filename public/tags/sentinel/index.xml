@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sentinel on aarvik.org</title>
+    <link>https://aarvik.org/tags/sentinel/</link>
+    <description>Recent content in Sentinel on aarvik.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>bendik@aarvik.org (Bendik Aarvik)</managingEditor>
+    <webMaster>bendik@aarvik.org (Bendik Aarvik)</webMaster>
+    <lastBuildDate>Thu, 22 Dec 2022 09:30:30 +0100</lastBuildDate><atom:link href="https://aarvik.org/tags/sentinel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitoring to stay ahead</title>
+      <link>https://aarvik.org/monitoring-to-stay-ahead/</link>
+      <pubDate>Thu, 22 Dec 2022 09:30:30 +0100</pubDate>
+      <author>bendik@aarvik.org (Bendik Aarvik)</author>
+      <guid>https://aarvik.org/monitoring-to-stay-ahead/</guid>
+      <description>Monitoring to stay ahead of the threat landscape It is often difficult to catch everything that is crawling around your network. It is especially hard to catch what is outside your network. It is also where new vulnerabilities get discovered day by day and hour by hour.
+Recently there was a Zero-Day vulnerability in exchange that shook the industry. Thankfully, Microsoft was early out with mitigation steps so people could secure their systems.</description>
+    </item>
+    
+  </channel>
+</rss>
