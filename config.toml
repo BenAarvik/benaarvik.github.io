@@ -633,10 +633,10 @@ googleAnalytics = "G-EB3FYE3KYK"
 
   # FixIt 0.2.0 | NEW Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-EB3FYE3KYK"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
