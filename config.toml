@@ -7,7 +7,6 @@ languageCode = "en"
 # Change the default theme to be use when building the site with Hugo
 theme = "FixIt"
 
-googleAnalytics = "G-EB3FYE3KYK"
 
 [params]
   # FixIt 0.2.15 | CHANGED FixIt theme version
