@@ -632,12 +632,12 @@ theme = "FixIt"
 
   # FixIt 0.2.0 | NEW Analytics config
   [params.analytics]
-    enable = true
+    enable = false
     # Google Analytics
-    [params.analytics.google]
-      id = "G-EB3FYE3KYK"
-      # whether to anonymize IP
-      anonymizeIP = true
+#    [params.analytics.google]
+#      id = "G-EB3FYE3KYK"
+#      # whether to anonymize IP
+#      anonymizeIP = true
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
