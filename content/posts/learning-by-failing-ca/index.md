@@ -49,13 +49,13 @@ My solution started with DNS. These days that is usually not how it goes, seeing
 
 In short, having my DNS services outside of the Microsoft sphere of influence ensured I could communicate with Microsoft efficiently and get back into my tenant through DNS ownership verification.
 
-The time to solve my issue was about 4 weeks, as I did not have any fancy support deals with Microsoft. There was a lot of back and forth, and due to me using Privileged Identity Management and not being an admin, I had to do extra verification steps. I also missed some calls due to getting them while at work or working with other things. I have seen this happen to a company — they got it solved in 2.5 days, as the only focus for them was getting their environment up and going again since they were losing money every day.
+The time to solve my issue was about 4 weeks, as I did not have any fancy support deals with Microsoft. There was a lot of back and forth, and due to me using Privileged Identity Management and not being an admin, I had to do extra verification steps. I also missed some calls due to getting them while at work or working with other things. I have seen this happen to a company, they got it solved in 2.5 days, as the only focus for them was getting their environment up and going again since they were losing money every day.
 
 ### What did I learn?
 
 #### Exclusions
 
-The most important thing I learned was that you must always have the correct exclusion in your Conditional Access policies — this being your Break Glass Account(s). Thankfully, since my mishap, Microsoft took to agreeing with that, and it is now not possible to set up a Conditional Access policy without an exclusion. But stay vigilant — you can still add an empty group for an exclusion, so make sure to either lock the groups with Restricted Administrative Units so no one can tamper with them or monitor them with the Conditional Access Optimization Agent. (Thank you to Julian Rasmussen for demoing this right after my talk!)
+The most important thing I learned was that you must always have the correct exclusion in your Conditional Access policies, this being your Break Glass Account(s). Thankfully, since my mishap, Microsoft took to agreeing with that, and it is now not possible to set up a Conditional Access policy without an exclusion. But stay vigilant — you can still add an empty group for an exclusion, so make sure to either lock the groups with Restricted Administrative Units so no one can tamper with them or monitor them with the Conditional Access Optimization Agent. (Thank you to Julian Rasmussen for demoing this right after my talk!)
 
 #### Testing
 
@@ -65,7 +65,7 @@ I should have tested things more thoroughly, but because it was my environment t
 
 Here I will preface that you should consult the documentation of your identity provider, as a Break Glass Account (BTG) is really important to set up correctly. Here is a link to the docs for [Entra ID](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access). Here you can also find resources on how to look after its credentials. The TL;DR is: use a FIDO2 key for MFA and store the password and FIDO2 key in separate safes in different locations.
 
-BTG accounts are emergency access accounts that are supposed to be used for situations where one would need to be an administrator but does not have access through “normal” means — for example, if you are locked out of your tenant due to Conditional Access, or you have an emergency and the normal means to acquire the Global Administrator role is through approval, and due to the emergency, the party responsible for approving is not able to do so. Then you would be able to access the BTG account and make the changes needed.
+BTG accounts are emergency access accounts that are supposed to be used for situations where one would need to be an administrator but does not have access through “normal” means, for example, if you are locked out of your tenant due to Conditional Access, or you have an emergency and the normal means to acquire the Global Administrator role is through approval, and due to the emergency, the party responsible for approving is not able to do so. Then you would be able to access the BTG account and make the changes needed.
 
 I thought Privileged Identity Management (PIM) was a smart thing to always use. I was not entirely wrong, but in my situation with no BTG account, it created more hassle, as Microsoft could not see that I had any admin accounts at all because of me implementing PIM and my admin account having just-in-time (JIT) access to their admin roles. Had I set up a BTG account, I would have been able to give them a quick answer instead of trying to explain PIM to the support tech so they could understand that yes, I’m an admin — just not right now...
 
