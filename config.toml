@@ -10,7 +10,7 @@ theme = "FixIt"
 
 [params]
   # FixIt 0.2.15 | CHANGED FixIt theme version
-  version = "0.2.15" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+  version = "0.3.20" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
   description = "test"
   # site keywords
