@@ -1,12 +1,12 @@
 ---
 title: Learning By Failing with Conditional Access
 description: This blog talks about what i did wrong when i went to set up Conditional Access in my microsoft tenant and what i learned from it. Additionally it is based on a talk i had recently at MVP-Dagen Roadshow Bergen. The presentation is available at my github. Hopefully this can help someone setting up Conditional Access avoid the pitfalls i fell into.
-date: 2025-11-15T09:30:30+01:00
+date: 2025-11-13T09:30:30+01:00
 author: "Bendik Aarvik" 
 license: 
 hidden: false
 comments: false
-draft: true
+draft: false
 images: []
 resources:
 - name: "featured-image"
