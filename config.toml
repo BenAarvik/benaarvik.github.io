@@ -10,7 +10,7 @@ theme = "FixIt"
 
 [params]
   # FixIt 0.2.15 | CHANGED FixIt theme version
-  version = "0.2.15" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+  version = "0.3.20" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # site description
   description = "test"
   # site keywords
@@ -632,12 +632,12 @@ theme = "FixIt"
 
   # FixIt 0.2.0 | NEW Analytics config
   [params.analytics]
-    enable = true
+    enable = false
     # Google Analytics
-    [params.analytics.google]
-      id = "G-EB3FYE3KYK"
-      # whether to anonymize IP
-      anonymizeIP = true
+#    [params.analytics.google]
+#      id = "G-EB3FYE3KYK"
+#      # whether to anonymize IP
+#      anonymizeIP = true
     # Fathom Analytics
     [params.analytics.fathom]
       id = ""
@@ -844,4 +844,3 @@ theme = "FixIt"
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
