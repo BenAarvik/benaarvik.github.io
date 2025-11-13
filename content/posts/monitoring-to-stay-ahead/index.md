@@ -41,9 +41,4 @@ Sentinel can also automate this by subscribing to what we call threat intelligen
 
 And thats how we use Monitors to stay ahead of the threat landscape.
 
-<br>
-<br>
-<br>
-<br>
 
-You can also read this on Amesto Fortytwo's blog [here](https://blog.amestofortytwo.com/monitoring-to-stay-ahead/)
