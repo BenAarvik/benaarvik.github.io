@@ -88,5 +88,5 @@ Longer answer: The control and visibility you get from having one authentication
 
 #### Documentation
 
-I found documenting Conditional Access to be a bit of a drag. Wanting to automate it, I found Merill Fernando’s IDPowerApp Conditional Access Documenter — it is a tool that does a good job of documenting your policies: [IDPowerApp](https://idpowertoys.merill.net).
+I found documenting Conditional Access to be a bit of a drag. Wanting to automate it, I found Merill Fernando’s IDPowerApp Conditional Access Documenter, it is a tool that does a good job of documenting your policies: [IDPowerApp](https://idpowertoys.merill.net)
 
