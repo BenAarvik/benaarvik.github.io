@@ -20,6 +20,11 @@ categories:
 
 ## A Conditional Access horror story and what I learned from it
 
+### Intro
+
+This blog talks about what i did wrong when i went to set up Conditional Access in my microsoft tenant and what i learned from it. Additionally it is based on a talk i had recently at MVP-Dagen Roadshow Bergen. The presentation is available at my github. Hopefully this can help someone setting up Conditional Access avoid the pitfalls i fell into.
+
+
 ### Background
 
 I was getting into homelabbing a while back, and since I work mostly with Microsoft services in the cloud, I thought getting a Microsoft tenant would be smart so I could test things and get even more familiar with the services I use day to day. Additionally, I wanted to use Microsoft’s services for mail, Outlook. The thing was that I had not yet learned about something crucial to any Conditional Access implementation, namely the Break Glass Account. The Break Glass Account functions as the emergency key to the environment when you are locked out. For example by conditional access which, is the system that decides who and how people or systems can log into your Microsoft tenant, Is setup wrong...
