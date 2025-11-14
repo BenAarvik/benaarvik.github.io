@@ -22,7 +22,7 @@ categories:
 
 ### Background
 
-I was getting into homelabbing a while back, and since I work mostly with Microsoft services in the cloud, I thought getting a Microsoft tenant would be smart so I could test things and get even more familiar with the services I use day to day. Additionally, I wanted to use Microsoft’s services for mail, Outlook. The thing was that I had not yet learned about something crucial to any Conditional Access implementation, namely the Break Glass Account. The Break Glass Account functions as the emergency key to the environment when, for example conditional access which, is the system that decides who and how people or systems can log into your Microsoft tenant. Is setup wrong...
+I was getting into homelabbing a while back, and since I work mostly with Microsoft services in the cloud, I thought getting a Microsoft tenant would be smart so I could test things and get even more familiar with the services I use day to day. Additionally, I wanted to use Microsoft’s services for mail, Outlook. The thing was that I had not yet learned about something crucial to any Conditional Access implementation, namely the Break Glass Account. The Break Glass Account functions as the emergency key to the environment when you are locked out. For example by conditional access which, is the system that decides who and how people or systems can log into your Microsoft tenant, Is setup wrong...
 
 
 ### What happened?
