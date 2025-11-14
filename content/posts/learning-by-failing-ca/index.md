@@ -22,9 +22,8 @@ categories:
 
 ### Background
 
-I was getting into homelabbing a while back, and since I work mostly with Microsoft services in the cloud, I thought getting a Microsoft tenant would be smart so I could test things and get even more familiar with the services I use day to day. Additionally, I wanted to use Microsoft’s services for mail, Outlook. The thing was that I had not yet learned about something crucial to any Conditional Access implementation, namely the Break Glass Account. The Break Glass Account functions as the emergency key to the environment when nothing else is working.
+I was getting into homelabbing a while back, and since I work mostly with Microsoft services in the cloud, I thought getting a Microsoft tenant would be smart so I could test things and get even more familiar with the services I use day to day. Additionally, I wanted to use Microsoft’s services for mail, Outlook. The thing was that I had not yet learned about something crucial to any Conditional Access implementation, namely the Break Glass Account. The Break Glass Account functions as the emergency key to the environment when, for example conditional access which, is the system that decides who and how people or systems can log into your Microsoft tenant. Is setup wrong...
 
-I jumped into it with a lot of enthusiasm and guts, starting with configuring the tenant with Entra ID, Intune, E-Mail, Privileged Identity Management, and then I got to Conditional Access. Conditional Access is the function that decides who and how people can log into the environment. If you get it wrong it can have bigger consequences than you think.
 
 ### What happened?
 
